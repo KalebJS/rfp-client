@@ -7,15 +7,16 @@ from .model import APIToken, Answer, Question
 
 
 class DatabaseProxy:
-    def __init__(self):
-        self.engine = self.create_db_and_tables()
+    def __init__(self, reset: bool = False):
+        self.engine = self.create_db_and_tables(reset)
 
-    def create_db_and_tables(self):
+    def create_db_and_tables(self, reset: bool = False):
         database_file_path = Path("instance/database.sqlite")
         database_file_path.parent.mkdir(parents=True, exist_ok=True)
         sqlite_url = f"sqlite:///{database_file_path}"
         engine = create_engine(sqlite_url)
-        SQLModel.metadata.drop_all(engine)
+        if reset:
+            SQLModel.metadata.drop_all(engine)
         SQLModel.metadata.create_all(engine)
         return engine
 
