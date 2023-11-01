@@ -23,7 +23,7 @@ class DatabaseProxy:
     def get_answer_by_id(self, id: int) -> str:
         with Session(self.engine) as session:
             answer = session.get(Answer, id)
-            return answer.text
+            return answer
 
     def insert_answer(self, answer: Answer):
         with Session(self.engine) as session:
@@ -37,6 +37,11 @@ class DatabaseProxy:
             session.add(question)
             session.commit()
             session.refresh(question)
+            return question
+    
+    def get_question_by_id(self, id: int) -> str:
+        with Session(self.engine) as session:
+            question = session.get(Question, id)
             return question
     
     def create_api_token(self):
