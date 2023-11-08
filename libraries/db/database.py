@@ -31,19 +31,19 @@ class DatabaseProxy:
             session.commit()
             session.refresh(answer)
             return answer
-        
+
     def insert_question(self, question: Question):
         with Session(self.engine) as session:
             session.add(question)
             session.commit()
             session.refresh(question)
             return question
-    
+
     def get_question_by_id(self, id: int) -> str:
         with Session(self.engine) as session:
             question = session.get(Question, id)
             return question
-    
+
     def create_api_token(self):
         token = uuid4().hex
         token_hash = hash(token)
@@ -63,8 +63,7 @@ class DatabaseProxy:
     def get_questions(self):
         with Session(self.engine) as session:
             return session.query(Question).all()
-        
+
     def get_answers(self):
         with Session(self.engine) as session:
             return session.query(Answer).all()
-    
