@@ -6,3 +6,4 @@ pydantic<2.0.0,>=1.9.0
 bertopic
 openai
 python-dotenv
+openpyxl
