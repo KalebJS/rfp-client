@@ -1,6 +1,6 @@
 """
 To run the dashboard, use the following command in the terminal:
-`streamlit run dashboard.py`
+` where do I print?`
 """
 import pandas as pd
 import streamlit as st
