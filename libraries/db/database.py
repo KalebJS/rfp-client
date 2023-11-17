@@ -3,7 +3,7 @@ from uuid import uuid4
 
 from sqlmodel import Session, SQLModel, create_engine
 
-from .model import APIToken, Answer, Question
+from .model import APIToken, Answer, Organization, Question, User
 
 
 class DatabaseProxy:
@@ -67,3 +67,11 @@ class DatabaseProxy:
     def get_answers(self):
         with Session(self.engine) as session:
             return session.query(Answer).all()
+
+    def get_users(self):
+        with Session(self.engine) as session:
+            return session.query(User).all()
+
+    def get_organizations(self):
+        with Session(self.engine) as session:
+            return session.query(Organization).all()
