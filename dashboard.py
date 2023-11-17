@@ -2,10 +2,10 @@
 To run the dashboard, use the following command in the terminal:
 `streamlit run dashboard.py`
 """
-import streamlit as st
 import pandas as pd
-from libraries.db import DatabaseProxy
+import streamlit as st
 
+from libraries.db import DatabaseProxy
 
 db = DatabaseProxy()
 

@@ -3,7 +3,7 @@ from uuid import uuid4
 
 from sqlmodel import Session, SQLModel, create_engine
 
-from .model import APIToken, Answer, Organization, Question, User
+from .model import Answer, APIToken, Organization, Question, User
 
 
 class DatabaseProxy:
