@@ -43,3 +43,5 @@ st.write(df_users)
 st.subheader("Organizations")
 st.write(f"Total: {len(df_organizations)}")
 st.write(df_organizations)
+
+st.text_input("Search")
