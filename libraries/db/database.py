@@ -1,5 +1,6 @@
 from pathlib import Path
 from uuid import uuid4
+import pandas as pd
 
 from sqlmodel import Session, SQLModel, create_engine
 
@@ -7,11 +8,11 @@ from .model import Answer, APIToken, Organization, Question, User
 
 
 class DatabaseProxy:
-    def __init__(self, reset: bool = False):
-        self.engine = self.create_db_and_tables(reset)
+    def __init__(self, reset: bool = False, database: str = "production"):
+        self.engine = self.create_db_and_tables(reset, database)
 
-    def create_db_and_tables(self, reset: bool = False):
-        database_file_path = Path("instance/database.sqlite")
+    def create_db_and_tables(self, reset: bool, database: str):
+        database_file_path = Path(f"instance/{database}.sqlite")
         database_file_path.parent.mkdir(parents=True, exist_ok=True)
         sqlite_url = f"sqlite:///{database_file_path}"
         engine = create_engine(sqlite_url)
@@ -24,6 +25,13 @@ class DatabaseProxy:
         with Session(self.engine) as session:
             answer = session.get(Answer, id)
             return answer
+
+    def insert_from_dataframe(self, df: pd.DataFrame, col_questions: str, col_answers: str) -> None:
+        for _, row in df.iterrows():
+            answer = Answer(text=str(row[col_answers]).strip())
+            answer = self.insert_answer(answer)
+            question = Question(text=str(row[col_questions]).strip(), answer_id=answer.id)
+            self.insert_question(question)
 
     def insert_answer(self, answer: Answer):
         with Session(self.engine) as session:

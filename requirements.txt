@@ -11,3 +11,9 @@ openpyxl
 streamlit
 watchdog
 matplotlib
+wordcloud
+pillow
+gensim
+nltk
+spacy
+pyldavis
