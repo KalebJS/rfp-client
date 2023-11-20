@@ -8,7 +8,7 @@ from .model import Answer, APIToken, Organization, Question, User
 
 
 class DatabaseProxy:
-    def __init__(self, reset: bool = False, database: str = "production"):
+    def __init__(self, reset: bool = False, database: str = "database"):
         self.engine = self.create_db_and_tables(reset, database)
 
     def create_db_and_tables(self, reset: bool, database: str):
