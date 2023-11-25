@@ -2,22 +2,12 @@ import streamlit as st
 
 from libraries.db import DatabaseProxy
 from libraries.index_proxy import IndexProxy
+from libraries.st_utils import get_db, get_index
 
+db = get_db()
+index = get_index()
 
-if "db" not in st.session_state:
-    db = DatabaseProxy()
-    st.session_state["db"] = db
-else:
-    db = st.session_state["db"]
-
-if "index" not in st.session_state:
-    index = IndexProxy(db, verbose=True)
-    index.reset()
-    st.session_state["index"] = index
-else:
-    index = st.session_state["index"]
-
-st.title("RFP Question Answering Interface") 
+st.title("RFP Question Answering Interface")
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "Please submit a question"}]
 
@@ -39,4 +29,3 @@ if prompt := st.chat_input():
         # answer = f"{answer_id} {round(score, 2)}: {answer.text}"
         add_assistant_message(answer)
         st.chat_message("assistant").write(answer)
-    
