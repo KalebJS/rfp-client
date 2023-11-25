@@ -1,9 +1,8 @@
 import pandas as pd
-from libraries.db.model import Answer, Question
 import streamlit as st
 
+from libraries.db.model import Answer, Question
 from libraries.st_utils import get_db
-
 
 st.title("Table Reset")
 

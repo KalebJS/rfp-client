@@ -1,9 +1,16 @@
 import pandas as pd
 import streamlit as st
 
-from libraries.st_utils import get_db
+from libraries.st_utils import export_database, get_db
 
 db = get_db()
+
+
+with st.sidebar:
+    fp = export_database()
+    with open(fp, "rb") as f:
+        st.download_button("Export Database", f, "database.xlsx")
+
 
 
 tables = {
