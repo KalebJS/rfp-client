@@ -2,6 +2,7 @@ from pathlib import Path
 from uuid import uuid4
 
 import pandas as pd
+from sqlalchemy import delete
 from sqlmodel import Session, SQLModel, create_engine
 
 from .model import Answer, APIToken, Organization, Question, User
@@ -83,3 +84,11 @@ class DatabaseProxy:
     def get_organizations(self):
         with Session(self.engine) as session:
             return session.query(Organization).all()
+
+    def delete_questions_answers(self):
+        with Session(self.engine) as session:
+            stmt = delete(Question)
+            session.execute(stmt)
+            stmt = delete(Answer)
+            session.execute(stmt)
+            session.commit()

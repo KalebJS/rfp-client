@@ -20,7 +20,8 @@ st.write(
     "to have the same answer."
 )
 
-n_augmentations = st.number_input("Number of Augmentations", min_value=1, max_value=10, value=5)
+with st.sidebar:
+    n_augmentations = st.number_input("Number of Augmentations", min_value=1, max_value=10, value=5)
 
 if not st.button("Run"):
     st.stop()
