@@ -2,21 +2,32 @@
 To run the dashboard, use the following command in the terminal:
 `streamlit run app.py`
 """
-import pandas as pd
 import streamlit as st
 
-from libraries.st_utils import get_db
+from libraries.st_utils import get_db, get_index
 
 db = get_db()
+index = get_index()
+
+st.title("RFP Question Answering Interface")
+if "messages" not in st.session_state:
+    st.session_state["messages"] = [{"role": "assistant", "content": "Please submit a question"}]
+
+for msg in st.session_state.messages:
+    st.chat_message(msg["role"]).write(msg["content"])
 
 
-tables = {"questions": db.get_questions, "answers": db.get_answers, "users": db.get_users, "organizations": db.get_organizations}
-primary_table = st.selectbox("Table", tables.keys())
+def add_assistant_message(text: str):
+    st.session_state.messages.append({"role": "assistant", "content": text})
 
-items = tables[primary_table]()
-df = pd.DataFrame([dict(o) for o in items])
-df.drop(columns=["_sa_instance_state"], inplace=True, errors="ignore")
 
-st.subheader(f"{primary_table.capitalize()} Table")
-st.write(f"Total: {len(df)}")
-st.dataframe(df, hide_index=True)
+if prompt := st.chat_input():
+    st.session_state.messages.append({"role": "user", "content": prompt})
+    st.chat_message("user").write(prompt)
+    answers = index.inference(prompt, return_count=1)
+    for answer_id, score in answers:
+        answer = db.get_answer_by_id(answer_id)
+        answer = answer.text
+        # answer = f"{answer_id} {round(score, 2)}: {answer.text}"
+        add_assistant_message(answer)
+        st.chat_message("assistant").write(answer)
