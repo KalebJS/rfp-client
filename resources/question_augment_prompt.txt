@@ -1,4 +1,4 @@
-Given the following question and answer pairs, generate 5 new ways to ask that question:
+Given the following question and answer pairs, generate {k} new ways to ask that question:
 
 For example:
 Question: "How often do you review and refresh your database of candidates?"

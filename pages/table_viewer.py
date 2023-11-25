@@ -6,7 +6,12 @@ from libraries.st_utils import get_db
 db = get_db()
 
 
-tables = {"questions": db.get_questions, "answers": db.get_answers, "users": db.get_users, "organizations": db.get_organizations}
+tables = {
+    "questions": db.get_questions,
+    "answers": db.get_answers,
+    "users": db.get_users,
+    "organizations": db.get_organizations,
+}
 primary_table = st.selectbox("Table", tables.keys())
 
 items = tables[primary_table]()
