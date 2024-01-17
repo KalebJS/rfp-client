@@ -6,9 +6,14 @@ import openai
 import pandas as pd
 import streamlit as st
 from tqdm import tqdm
+from transformers import set_seed # add
+import nlpaug.augmenter.word as naw # add
 
 from libraries.db import Question
 from libraries.st_utils import get_db
+
+set_seed(3) # add
+aug = naw.ContextualWordEmbsAug(model_path="distilbert-base-uncased", device="cpu", action="substitute") # add
 
 db = get_db()
 
@@ -26,10 +31,6 @@ with st.sidebar:
 if not st.button("Run"):
     st.stop()
 
-dotenv.load_dotenv(".envrc")
-api_key = os.environ["OPENAI_API_KEY"]
-openai.api_key = api_key
-
 with open("resources/question_augment_prompt.txt", "r") as f:
     prompt = f.read()
 
@@ -39,16 +40,19 @@ question_pattern = re.compile(r"\d\. (.*)\n?")
 
 for question in tqdm(questions):
     answer = db.get_answer_by_id(question.answer_id)
-    content = prompt.format(question=question.text, answer=answer.text, n=n_augmentations)
-    conversation = [{"role": "user", "content": content}]
-    response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=conversation,
-        max_tokens=1000,
-    )
-    text = response["choices"][0]["message"]["content"]
-    choices = question_pattern.findall(text)
-    choices = [choice.strip().strip('"') for choice in choices]
-    for choice in choices:
-        new_question = Question(text=choice, answer_id=answer.id)
-        db.insert_question(new_question)
+    augmented_question = aug.augment(question.text) # add
+    print(augmented_question)
+    # # content = prompt.format(question=question.text, answer=answer.text, n=n_augmentations)
+    # content = prompt.format(question=augmented_question, answer=answer.text, n=n_augmentations) # change
+    # conversation = [{"role": "user", "content": content}]
+    # response = openai.ChatCompletion.create(
+    #     model="gpt-3.5-turbo",
+    #     messages=conversation,
+    #     max_tokens=1000,
+    # )
+    # text = response["choices"][0]["message"]["content"]
+    # choices = question_pattern.findall(text)
+    # choices = [choice.strip().strip('"') for choice in choices]
+    # for choice in choices:
+    #     new_question = Question(text=choice, answer_id=answer.id)
+    #     db.insert_question(new_question)
