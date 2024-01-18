@@ -18,3 +18,4 @@ nltk
 spacy
 pyldavis
 yellowbrick
+nlpaug
