@@ -46,5 +46,5 @@ def export_database():
         df_answers.to_excel(writer, sheet_name="answers", index=False)
         df_users.to_excel(writer, sheet_name="users", index=False)
         df_organizations.to_excel(writer, sheet_name="organizations", index=False)
-    
+
     return output_path
