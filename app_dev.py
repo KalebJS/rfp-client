@@ -4,7 +4,7 @@ To run the dashboard, use the following command in the terminal:
 """
 import streamlit as st
 
-from libraries.st_utils import get_db, get_index
+from source.st_utils import get_db, get_index
 
 db = get_db()
 index = get_index()
