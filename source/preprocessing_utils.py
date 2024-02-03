@@ -5,8 +5,6 @@ from nltk.stem import WordNetLemmatizer
 import string
 import spacy
 
-def handle_specialized_characters(text: str) -> str:
-    pass
 
 def entity_recognizer(df):
     nlp = spacy.load("en_core_web_sm")
