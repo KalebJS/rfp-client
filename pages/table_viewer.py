@@ -12,7 +12,6 @@ with st.sidebar:
         st.download_button("Export Database", f, "database.xlsx")
 
 
-
 tables = {
     "questions": db.get_questions,
     "answers": db.get_answers,
