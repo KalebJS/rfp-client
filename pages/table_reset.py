@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-
 from libraries.db.model import Answer, Question
 from libraries.st_utils import get_db
 

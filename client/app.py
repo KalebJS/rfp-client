@@ -12,6 +12,11 @@ if "messages" not in st.session_state:
 for msg in st.session_state.messages:
     st.chat_message(msg["role"]).write(msg["content"])
 
+
+def add_assistant_message(text: str):
+    st.session_state.messages.append({"role": "assistant", "content": text})
+
+
 url = "http://localhost:8000/inference/"
 
 if prompt := st.chat_input():

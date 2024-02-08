@@ -5,10 +5,9 @@ import dotenv
 import openai
 import pandas as pd
 import streamlit as st
-from tqdm import tqdm
-
 from libraries.db import Question
 from libraries.st_utils import get_db
+from tqdm import tqdm
 
 db = get_db()
 

@@ -3,7 +3,6 @@ from dataclasses import dataclass
 from typing import List, Optional, Tuple
 
 import chromadb
-
 from libraries.db import DatabaseProxy, Question
 
 

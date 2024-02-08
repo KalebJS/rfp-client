@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-
 from libraries.db.database import DatabaseProxy
 from libraries.index_proxy import IndexProxy
 
