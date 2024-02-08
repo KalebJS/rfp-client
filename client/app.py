@@ -2,7 +2,7 @@
 To run the dashboard, use the following command in the terminal:
 `streamlit run app.py`
 """
-from source import APIClient
+import requests
 import streamlit as st
 
 st.title("RFP Question Answering Interface")
