@@ -21,3 +21,4 @@ yellowbrick
 pymilvus==2.3.4
 qdrant-client
 textblob
+retry
