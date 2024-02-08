@@ -25,7 +25,7 @@ if prompt := st.chat_input():
     payload = {"question": prompt}
     response = requests.post(url, json=payload)
     answers = response.json()
-    if answers:
+    if not answers:
         message = "I'm sorry, I don't have an answer to that question."
         st.session_state.messages.append({"role": "assistant", "content": message})
         st.chat_message("assistant").write(message)
