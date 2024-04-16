@@ -1,0 +1,241 @@
+id,text,is_active,answer,created_at
+337,"
+Please explain how you keep a pipeline of critical positions available for future employment opportunities?
+Additionally what is your applicant to placement ration?
+(Critical Positions: Forklift, QA Inspector and Machine Operator)
+",True,Answer object (337),2024-02-29 05:42:53.333664+00:00
+336,"
+For critical skilled positions (Forklift Driver, QA Inspector and Machine Operators) how do you review and verify their qualifications?
+",True,Answer object (336),2024-02-29 05:42:53.296385+00:00
+335,"
+Do you have a training plan for forklift drivers? 
+Please describe any Agency specific training required by forklift operators.
+",True,Answer object (335),2024-02-29 05:42:53.260644+00:00
+334,"
+What is your strategy around hiring for forklift drivers?
+",True,Answer object (334),2024-02-29 05:42:53.205792+00:00
+333,"
+We require that all of our employee be vaccinated for COVID-19.  How will you ensure this happens?
+",True,Answer object (333),2024-02-29 05:42:53.159134+00:00
+332,"
+Any previous legal cases with where both your agency and WC were named in case?
+",True,Answer object (332),2024-02-29 05:42:53.124894+00:00
+331,"
+What is your process for auditing employee onboarding paperwork to ensure arbitration agreements are signed?
+Where do you maintain the arbitration agreements and for how long? 
+What is the process for requesting the documents if/when needed?
+",True,Answer object (331),2024-02-29 05:42:53.088048+00:00
+330,"
+Arbitration agreements required for every staffing agency employee, do you have any issues with this requirement?
+",True,Answer object (330),2024-02-29 05:42:53.056722+00:00
+329,"
+What claims have you had related to DFEH and EEOC?
+",True,Answer object (329),2024-02-29 05:42:53.025372+00:00
+328,"
+For our CA facilities an on-site coordinator will be requested if you provide over 100 employees to our facility. For our TX facilities we will request you provide an on-site coordinator if you provide over 40 employees to our facilities.  We will provide office space, furnishings, internet access and any additional resources if needed.  The expectation of the coordinator will be attendance and arrival calls, presence in and around the production facility, address safety concerns as needed, payroll and data entry, coordinate and conduct new-hire orientations, and manage the overall headcount of Assigned Employees based on Wonderful Citrus needs.
+",True,Answer object (328),2024-02-29 05:42:52.924296+00:00
+327,"
+What is your most recent satisfaction score for the employees you've placed?
+",True,Answer object (327),2024-02-29 05:42:52.893613+00:00
+326,"
+How do you measure your client satisfaction and what is your most recent satisfaction score?
+",True,Answer object (326),2024-02-29 05:42:52.859479+00:00
+325,"
+Do you offer a satisfaction guarantee? 
+If so what are the parameters?
+",True,Answer object (325),2024-02-29 05:42:52.819809+00:00
+324,"
+How do you assess reasons for employees exiting the organization (ex. Exit interviews) and share an example of how you implement improvements based on the feedback?
+",True,Answer object (324),2024-02-29 05:42:52.782523+00:00
+323,"
+If you were a provider of ours last season what was your monthly fill rate % of the requisitions you were given for critical roles by position?
+(Critical Roles: Forklift, QA Inspector and Machine Operators)
+",True,Answer object (323),2024-02-29 05:42:52.741219+00:00
+322,"
+If you were a provider of ours last season what was your monthly fill rate % of the requisitions you were given for non critical roles?
+(Critical Roles: Forklift, QA Inspector and Machine Operators)
+",True,Answer object (322),2024-02-29 05:42:52.696566+00:00
+321,"
+What action or steps do you implement to retain employees throughout the season?
+",True,Answer object (321),2024-02-29 05:42:52.660693+00:00
+320,"
+If you were a provider of ours last season what was your turnover rate?  If you did not provide labor to us last season what is your average turnover rate?
+",True,Answer object (320),2024-02-29 05:42:52.625991+00:00
+319,"What does your firm do both in its operational and hiring practices to promote ESG and DEI (e.g., charity engagements, standard reports on background/nationality/gender of temp labor, inclusion training)?",True,Answer object (319),2024-02-29 05:42:52.585724+00:00
+318,"What training and recruiting software do you use? Does your offer include access to VMS software? If so, what software? Is usage of this software optional, recommended, or required?",True,Answer object (318),2024-02-29 05:42:52.539334+00:00
+317,"Please describe your reporting metrics and what software is used to report out to clients. (e.g., we track spend, hours, attrition, screening fails, punctuality, etc. that we send to each facility monthly via an Excel spreadsheet). A sample monthly business review structure with necessary fields is provided in the last tab.",True,Answer object (317),2024-02-29 05:42:52.483027+00:00
+316,What is your firm offering that will enable Radial to improve (cost) competitiveness? What differentiates you from your competitors?,True,Answer object (316),2024-02-29 05:42:52.444283+00:00
+315,"Do your call center figures include associated equipment (computer, headset, etc.)? Or will Radial need to provide equipment?",True,Answer object (315),2024-02-29 05:42:52.408884+00:00
+314,Does your firm engage in any additional screening behind employment verification and background checks?,True,Answer object (314),2024-02-29 05:42:52.373627+00:00
+313,"Radial expects agencies to conduct a 4-panel drug screen that excludes Marijuana. If this is an issue, please indicate this here.",True,Answer object (313),2024-02-29 05:42:52.337212+00:00
+312,What screening criteria and methodology will be used?,True,Answer object (312),2024-02-29 05:42:52.305249+00:00
+311,"Will your agency conduct I-9, E-Verify, or other employment verification?",True,Answer object (311),2024-02-29 05:42:52.269865+00:00
+310,Who do you see as your 3 most critical competitors?,True,Answer object (310),2024-02-29 05:42:52.235497+00:00
+309,Website,True,Answer object (309),2024-02-29 05:42:52.204157+00:00
+308,"Ownership Structure (family owned, PE, public)",True,Answer object (308),2024-02-29 05:42:52.077022+00:00
+307,Parent Company (if any),True,Answer object (307),2024-02-29 05:42:52.020988+00:00
+306,"What are the top 3 challenges your agency is facing (e.g., temp labor market, placements, staffing availability)? And how are you addressing these challenges?",True,Answer object (306),2024-02-29 05:42:51.978255+00:00
+305,Does your company have ISO 9000 or ISO 27001 or SOC Certifications? Please explain,True,Answer object (305),2024-02-29 05:42:51.946719+00:00
+304,Is a complete set of your organisation's security policies available for review?,True,Answer object (304),2024-02-29 05:42:51.914402+00:00
+303,"Is there a dedicated resource responsible for security policy development, maintenance, and issuance?",True,Answer object (303),2024-02-29 05:42:51.881846+00:00
+302,"Is there a process to review and update security policies? If Yes, What was the last review date?",True,Answer object (302),2024-02-29 05:42:51.845548+00:00
+301,"Does your organization have a documented information security policy? Please list the names of the policies, the last reviewed date, and the name and title of the approver",True,Answer object (301),2024-02-29 05:42:51.803350+00:00
+300,"Are services provided to Segra covered under scope of BCP? If yes, Please explain(including frequency of testing, review, and update of plans and remediation of concerns identified in testing)",True,Answer object (300),2024-02-29 05:42:51.762026+00:00
+299,Is monitoring in place for cloud administrators copying customer data into the corporate network? Please explain,True,Answer object (299),2024-02-29 05:42:51.728287+00:00
+298,"Are there mechanisms in place to enforce data segregation between:
+a)Segra's and other tenants in a multi-tenant environments
+b)Segra's and the vendor's internal cloud computing environment
+Please provide details",True,Answer object (298),2024-02-29 05:42:51.685883+00:00
+297,Is there procedures in place for handling secure disposal and or return of the customer data upon request or in the case of termination of services? Please explain,True,Answer object (297),2024-02-29 05:42:51.644082+00:00
+296,Are exceptions to security policies and procedures justified and documented?   ,True,Answer object (296),2024-02-29 05:42:51.609017+00:00
+295,"Is  a regulatory data privacy and data security compliance assessment against the applicable global and domestic data privacy and data security related regulations performed regularly? If Yes, what is the current status of the compliance assessment noted above? Please provide evidence",True,Answer object (295),2024-02-29 05:42:51.559345+00:00
+294,"Is a formally documented data privacy policy/standard in place covering collection, use, retention, disposal and security of personal information which is reviewed on a periodic basis at least annually and communicated to all the relevant stakeholders? Please provide copy of data privacy and Information security policies",True,Answer object (294),2024-02-29 05:42:51.497516+00:00
+293,Is there a process to secure and cleanse Segra data on electronic and hard copy media that is to be disposed or re-used. Is electronic media degaussed and physically destroyed prior to final disposal?,True,Answer object (293),2024-02-29 05:42:51.441810+00:00
+292,"Does your organization permit the use of PII/PCI/CPNI/PHI related Segra data in hardcopy? If yes, please describe the controls in place to control and protect sensitive data in hardcopy format.",True,Answer object (292),2024-02-29 05:42:51.383160+00:00
+291,"Are data privacy management  requirements, processes, procedures, and technical measures defined, implemented, and evaluated?",True,Answer object (291),2024-02-29 05:42:51.345043+00:00
+290,Is data-in-memory protected using encryption/hashing methods? Please explain encryption technology,True,Answer object (290),2024-02-29 05:42:51.307259+00:00
+289,Is all sensitive or highly confidential data encrypted/hashed at rest? (including data and passwords). Please explain encryption technology,True,Answer object (289),2024-02-29 05:42:51.261177+00:00
+288,Is there a policy in place for employees and/or subcontractors who access Segra data defining how mobile devices are controlled and managed as part of your asset inventory?,True,Answer object (288),2024-02-29 05:42:51.214301+00:00
+287,"Is there a process in place to ensure all employees and external users return the organization's assets on termination of their employment, contract or agreement?",True,Answer object (287),2024-02-29 05:42:51.171860+00:00
+286,Is the inventory updated regularly to reflect changes to the lifecycle of all assets and associated configurations?,True,Answer object (286),2024-02-29 05:42:51.132285+00:00
+285,Is there an Asset Management Policy or Standard approved by management and communicated to asset owners/managers?,True,Answer object (285),2024-02-29 05:42:51.092684+00:00
+284,Is an Automated asset inventory discovery tool used to inventory devices on the network?,True,Answer object (284),2024-02-29 05:42:51.048608+00:00
+283,"Are asset inventories maintained consistently for the following types of assets (but not limited to):
+- Information Assets
+- Software Assets
+- Technical Physical Assets
+- Service Assets
+- People
+- Facilities
+
+Are asset inventories defined, reviewed and updated (at least) on an annual basis for all categories of assets? Please explain",True,Answer object (283),2024-02-29 05:42:50.965604+00:00
+282,"Does your organization work with HIPAA compliant data? If yes, has it signed any Business Associate Agreements (BAA) for its customers?",True,Answer object (282),2024-02-29 05:42:50.898078+00:00
+281,Do you perform periodic information security risk assessments on the fourth party vendors to evaluate their security posture? ,True,Answer object (281),2024-02-29 05:42:50.854970+00:00
+280,Do you take necessary approvals from Segra before sharing Segra's information including PII with fourth parties?,True,Answer object (280),2024-02-29 05:42:50.811382+00:00
+279,"Does the contractual agreement with fourth parties include information security requirements including confidentiality/non-disclosure?
+",True,Answer object (279),2024-02-29 05:42:50.773445+00:00
+278,Does your organization utilize third party suppliers who will have access to Segra data or the underlying systems? ,True,Answer object (278),2024-02-29 05:42:50.731774+00:00
+277,Are there evidences for any internal audits for verifying the strength of internal processes?,True,Answer object (277),2024-02-29 05:42:50.696920+00:00
+276,"Is there a formal and well defined security and privacy related reporting process to Management and oversight groups? If yes, please explain the process?",True,Answer object (276),2024-02-29 05:42:50.657547+00:00
+275,Is there a designated leader responsible for information security and data privacy? Please provide the title,True,Answer object (275),2024-02-29 05:42:50.624772+00:00
+274,"Are your organization's Information Security Policies, Standards, Guidelines, and Operating Procedures reviewed/refreshed periodically? 
+Explain frequency of review(s) and who performs/approves.",True,Answer object (274),2024-02-29 05:42:50.580616+00:00
+273,"Is the Information Security Policy aligned to industry standards and/or frameworks (e.g. NIST CSF, ISO27001, COBIT, etc.)? 
+If yes, please describe.",True,Answer object (273),2024-02-29 05:42:50.540667+00:00
+272,Does the organization have a documented and approved Information Security Policy?  Please provide a copy.,True,Answer object (272),2024-02-29 05:42:50.506277+00:00
+271,Are there periodic trainings and awareness programs organized to convey the criticality of data being handled at the premises?,True,Answer object (271),2024-02-29 05:42:50.472988+00:00
+270,Is Information Security training a part of induction?,True,Answer object (270),2024-02-29 05:42:50.443808+00:00
+269,Are any information security duties which survive employment communicated to the employee or contractor?,True,Answer object (269),2024-02-29 05:42:50.411890+00:00
+268,Is there a documented process for terminating or changing employment duties?,True,Answer object (268),2024-02-29 05:42:50.382711+00:00
+267,"Are all employees, contractors and third party users asked to sign confidentiality and non- disclosure agreements?",True,Answer object (267),2024-02-29 05:42:50.350007+00:00
+266,Is there a well defined  formal disciplinary process for employees who have committed a security breach?,True,Answer object (266),2024-02-29 05:42:50.316459+00:00
+265,"Are pre-employment background checks conducted for all new hired employees and contractors upon hire? 
+Please describe what checks are performed (e.g. Credit, Criminal, References, Employment/Education History, etc.)",True,Answer object (265),2024-02-29 05:42:50.273337+00:00
+264,Is there a documented process for handling emergency changes to ensure they are carried out in controlled & timely manner?,True,Answer object (264),2024-02-29 05:42:50.236688+00:00
+263,"Does your organization conduct post implementation reviews for emergency, high impact, and failed or problematic changes?",True,Answer object (263),2024-02-29 05:42:50.205479+00:00
+262,"Are processes in place to restrict any changes to Segra infrastructure, configurations, and/or data without explicit approvals from Segra?",True,Answer object (262),2024-02-29 05:42:50.171763+00:00
+261,Are formal Information Security risk assessments performed prior to the introduction of new systems or significant/material Changes?,True,Answer object (261),2024-02-29 05:42:50.140677+00:00
+260,"Is there an established segregation of Change roles (Requestor, Implementor, Approvers, Acceptance Testing, etc.)?",True,Answer object (260),2024-02-29 05:42:50.105440+00:00
+259,Does the vendor organization maintain Audit Trail of all the change requests?,True,Answer object (259),2024-02-29 05:42:50.076013+00:00
+258,"Is there a documented detailed procedure for identifying of changes to be notified to Segra, sending an approval request & communication process? Please explain",True,Answer object (258),2024-02-29 05:42:50.033822+00:00
+257,Is there a formal disciplinary process for dealing with employees who have allegedly violated Company security policies and procedures?,True,Answer object (257),2024-02-29 05:42:49.991833+00:00
+256,"Is there internal and public notification procedures in place for reporting data security and privacy related incidents to appropriate authorities and stakeholders (e.g., ES-ISAC, US-CERT, law enforcement, business partners, customers, etc.) in the event of an incident?",True,Answer object (256),2024-02-29 05:42:49.934080+00:00
+255,"Are there formal procedures for reporting incidents like:
+- Security Incidents
+- Security Weakness
+- Software Malfunctions
+- Malicious Software etc
+to Segra? i.e.
+Segra should be informed of all security incidents at the Vendor premises. Please provide a copy of your incident response plan.",True,Answer object (255),2024-02-29 05:42:49.862426+00:00
+254,"Does your organization have a Backup, Restoration, Retention Policy or Standard that  has been approved by management, communicated to constituents and an owner to maintain and review?
+If yes, does it include:
+1.Periodic testing of restoration capability?
+2.Encryption/hashing of backups? 
+3.Data destruction/sanitization of backup media content prior to media decommission or in the event of media failure?
+4.Ability to remove Segra data from all backups upon request or end of contracted services?
+5.Upon request or end of contracted services, are you able to provide attestation detailing how Segra information, including logs, metadata, etc.... have been completely removed from all hardware devices and storage media? Please explain",True,Answer object (254),2024-02-29 05:42:49.742631+00:00
+253,Does e-mail communication from the vendor include a standard disclaimer as a part of the contents?,True,Answer object (253),2024-02-29 05:42:49.710164+00:00
+252,Are the mail attachments scanned for Virus and other malicious content?,True,Answer object (252),2024-02-29 05:42:49.678657+00:00
+251,"Are the e-mail accounts shared between users? If Yes, explain how is Accountability handled?",True,Answer object (251),2024-02-29 05:42:49.647811+00:00
+250,Are there well-documented procedures for disabling or removing e-mail accounts after the employee leaves the vendor premises?,True,Answer object (250),2024-02-29 05:42:49.614336+00:00
+249,Are user e-mail accounts at the Vendor facility created after necessary management / HR approvals?,True,Answer object (249),2024-02-29 05:42:49.582763+00:00
+248,Is there an Email security policy to define safe acceptable  email usage by employees.,True,Answer object (248),2024-02-29 05:42:49.549391+00:00
+247,Is there a process to track assessed security vulnerabilities through the remediation lifecycle? Please explain,True,Answer object (247),2024-02-29 05:42:49.511977+00:00
+246,Is there a  process for conducting periodic penetration testing and /or vulnerability assessment of your network and applications? Please share latest results,True,Answer object (246),2024-02-29 05:42:49.476543+00:00
+245,Is sensitive Segra data sent over the Internet (e.g. web applications or interfaces) protected by Secure Sockets Layer (SSL) or Transport Layer Security (TLS) protocols? Please explain,True,Answer object (245),2024-02-29 05:42:49.440171+00:00
+244,"Is direct access between the Internet and Segra relevant systems restricted securely? If not, please describe mitigating controls (e.g., NAC). Please provide a brief description of relevant network controls. ",True,Answer object (244),2024-02-29 05:42:49.393402+00:00
+243,"Is access to the systems housing Segra data restricted using virtual LAN's (VLANs), a demilitarized zone (DMZ) or other network-based controls? Please explain",True,Answer object (243),2024-02-29 05:42:49.356420+00:00
+242,"Is the network used for providing service to Segra, logically and physically segregated i.e. Environment at the service provider premises must be compartmentalized, separating it from the rest of the provider's environment to ensure no penetration is possible from other client environments or from the provider's wider network. - if vendor does not have access to Segra network then put ""N/A""",True,Answer object (242),2024-02-29 05:42:49.287646+00:00
+241,"Is there remote access to the network and systems hosting Segra data? If yes, describe the security protocols (e.g., multi-factor authentication) used to secure external access and remote authentication to Segra data and other internal organization technology assets. ",True,Answer object (241),2024-02-29 05:42:49.237933+00:00
+240,Is there a process of review of security logs? Please explain,True,Answer object (240),2024-02-29 05:42:49.207271+00:00
+239,Are regular scans performed to discover rogue wireless access points?,True,Answer object (239),2024-02-29 05:42:49.176787+00:00
+238,Is access to diagnostic or maintenance ports on network devices restricted to users with authorized credentials and only from trusted sources?,True,Answer object (238),2024-02-29 05:42:49.144251+00:00
+237,Do vulnerability scanning/management processes include Network Devices?,True,Answer object (237),2024-02-29 05:42:49.114758+00:00
+236,Are all connections with external networks terminated at a firewall?,True,Answer object (236),2024-02-29 05:42:49.085648+00:00
+235,"Does outbound web traffic get scanned for malware, malicious/blacklisted sites and Data policy violations, with any authorized exclusions documented?",True,Answer object (235),2024-02-29 05:42:49.043073+00:00
+234,Do all network ACLs and firewalls explicitly deny traffic flow by default?,True,Answer object (234),2024-02-29 05:42:49.006206+00:00
+233,Is the internet access to users controlled by a central gateway and routed through a proxy server?,True,Answer object (233),2024-02-29 05:42:48.965373+00:00
+232,"Is production data sanitized of any confidential and sensitive (e.g., PHI, PCI, PII) information prior to use in testing environments?",True,Answer object (232),2024-02-29 05:42:48.922544+00:00
+231,Are applications designed in accordance with industry accepted security standards and comply with applicable regulatory and business requirements?,True,Answer object (231),2024-02-29 05:42:48.889717+00:00
+230,"Is there a defined, implemented, and communicated end-to-end system development methodology in place?",True,Answer object (230),2024-02-29 05:42:48.855194+00:00
+229,Is the Password protect option enabled and configured correctly during inactivity after a set time?,True,Answer object (229),2024-02-29 05:42:48.804785+00:00
+228,Are guest accounts disabled in the User machines?,True,Answer object (228),2024-02-29 05:42:48.754674+00:00
+227,Are critical system files and folders protected with requisite permissions? i.e. Access to critical system files/folders should be allowed only to essential authorized users as improper configuration could result in system compromise.,True,Answer object (227),2024-02-29 05:42:48.707763+00:00
+226,Is the appropriate anti-virus software deployed and regularly updated? How often do updates occur? Please explain,True,Answer object (226),2024-02-29 05:42:48.673831+00:00
+225,Is there a formal policy requiring compliance with software licenses and prohibiting the use of unauthorized software?,True,Answer object (225),2024-02-29 05:42:48.642411+00:00
+224,Is there a configuration management document for servers and network? Does this document capture all the secure settings and application specific settings? Please explain,True,Answer object (224),2024-02-29 05:42:48.607147+00:00
+223,Are controls in place to ensure users only have access to the network resources they have been specially authorised to use and are required for their duties?,True,Answer object (223),2024-02-29 05:42:48.569056+00:00
+222,Are the system administrator activities on firewall and other network elements being logged and monitored?,True,Answer object (222),2024-02-29 05:42:48.537815+00:00
+221,Is there a secure procedure for the storage and maintenance of Administrator logs?,True,Answer object (221),2024-02-29 05:42:48.505629+00:00
+220,Are unsuccessful attempts to gain access to the work stations being logged and periodically analyzed?,True,Answer object (220),2024-02-29 05:42:48.472938+00:00
+219,"Is two factor authentication required to access the production environment containing sensitive services, functions, and environments? 
+(Ex: VPN/Remote access, Priveleged system access,  Data access)",True,Answer object (219),2024-02-29 05:42:48.429494+00:00
+218,"Is there a password policy framework in place for strong passwords, Changing passwords at regular intervals, Unsuccesfull attempt lockout etc?",True,Answer object (218),2024-02-29 05:42:48.396021+00:00
+217,Are there periodic audits performed on the user access profiles?,True,Answer object (217),2024-02-29 05:42:48.363524+00:00
+216,"Is there a process to ensure user access rights are removed on termination of employment or contract, or adjusted upon change of role?",True,Answer object (216),2024-02-29 05:42:48.323608+00:00
+215,"Are there any default accounts (e.g., ""Administrator"", root, and generic guest/system accounts) for systems that house Segra data?  If yes, are they disabled? ",True,Answer object (215),2024-02-29 05:42:48.283036+00:00
+214,"Are there procedures to verify or identity  a user prior to providing a new, replacement or temporary password?",True,Answer object (214),2024-02-29 05:42:48.245966+00:00
+213,is there formal user registration process include using unique user ID's so that users can be linked to and made responsible for their actions and the use of group ID's should only be permitted where they are suitable for the work carried out. Please explain,True,Answer object (213),2024-02-29 05:42:48.204143+00:00
+212,Does your organization apply/enforce the principles of least privilege and need-to-know to access management practices?,True,Answer object (212),2024-02-29 05:42:48.168084+00:00
+211,Are privileged access accounts separately managed and controlled?,True,Answer object (211),2024-02-29 05:42:48.135096+00:00
+210,"Is there standards-based federated ID capability available to clients (e.g., SAML, OpenID, Single Sign On)? Please explain",True,Answer object (210),2024-02-29 05:42:48.100325+00:00
+209,Is there a documented access control policy available? Is it based on Business requirements and communicated appropriately? Please explain,True,Answer object (209),2024-02-29 05:42:48.069176+00:00
+208,Is there an uninterruptible power supply(UPS) mechanism / Power Generator in place which has been tested within an appropriate timescale?,True,Answer object (208),2024-02-29 05:42:48.033522+00:00
+207,Is the fire fighting system tested periodically?,True,Answer object (207),2024-02-29 05:42:48.003252+00:00
+206,"After access validation, is there someone(Security guard/receptionist) to escort the personnel to the intented place?",True,Answer object (206),2024-02-29 05:42:47.971853+00:00
+205,Is there a process for authorizing and controlling how assets/equipment are removed from site? Please explain,True,Answer object (205),2024-02-29 05:42:47.938389+00:00
+204,Are logs maintained that record all changes to information systems?,True,Answer object (204),2024-02-29 05:42:47.907388+00:00
+203,"Have measures to protect your systems from environmental hazards such as fire, smoke, water, vibration, electrical supply interfaces, and dust been designed in? Please explain",True,Answer object (203),2024-02-29 05:42:47.872449+00:00
+202,"Is there a designated security perimeter? (i.e. gates, secure vehicle access, security cameras, etc.) ",True,Answer object (202),2024-02-29 05:42:47.837113+00:00
+201,Do secure areas have suitable entry control systems to ensure only authorised personnel(Inc Contractors) have access? Please explain,True,Answer object (201),2024-02-29 05:42:47.803348+00:00
+200,"Are there physical security mechanisms in place that prevent unauthorized access to your office space, user workstations, and server rooms/data centres? Please explain",True,Answer object (200),2024-02-29 05:42:47.766401+00:00
+199,"Within the Questionnaire, for the controls where response is ""Yes"" ,are they  audited on a regular basis? ",True,Answer object (199),2024-02-29 05:42:47.717085+00:00
+198,Will there be physical access to Segra network?,True,Answer object (198),2024-02-29 05:42:47.668336+00:00
+197,Are Security/Compliance reports publicly available?,True,Answer object (197),2024-02-29 05:42:47.611193+00:00
+196,Is your company subject to regulatory oversight?,True,Answer object (196),2024-02-29 05:42:47.549143+00:00
+195,"Are there any non-US based operations that pertain to the service or product being offered to Segra? If Yes, please identify",True,Answer object (195),2024-02-29 05:42:47.479854+00:00
+194,"Are there any owners with greater than 10% ownership who are non-US entities? If Yes, please identify",True,Answer object (194),2024-02-29 05:42:47.413180+00:00
+193,Are there any major mergers and acquisitions?,True,Answer object (193),2024-02-29 05:42:47.371449+00:00
+192,What logical or physical access to Segra information or facilities will your company require access to? ,True,Answer object (192),2024-02-29 05:42:47.331666+00:00
+191,Provide a brief of company history and number of employees,True,Answer object (191),2024-02-29 05:42:47.268108+00:00
+190,"Would you be able to provide reporting with visibility to the number of hours, pay rates, bill rates, mark-up percent, total spend, etc. at an individual employee level?. Please confirm you would be able to furnish this report on a monthly basis",True,Answer object (190),2024-02-29 05:42:47.176707+00:00
+189,"If selected as preferred vendor, your company will be part of the VMS scorecarding system (KPI tracking). Please confirm acceptance of the same.",True,Answer object (189),2024-02-29 05:42:47.140896+00:00
+188,What would be the % mark-up for temp staff not recruited by vendor (recruiting by Segra) but on-boarding & other process is handled by vendor?,True,Answer object (188),2024-02-29 05:42:47.101371+00:00
+187,"In future, Segra may utilize a Vendor Management System (VMS) and will be a supplier funded model (expected fee of 2%) . Please confirm acceptance to be part of that system.",True,Answer object (187),2024-02-29 05:42:47.059545+00:00
+186,"What is your process for handling distribution of equipments/laptops as part of employee on-boarding process?. Do you expect Segra to provide those equipmnents or will it be provided by your company? If provided by your company, are there any additional cost associated with it?",True,Answer object (186),2024-02-29 05:42:47.005577+00:00
+185,What is your process to resolve customer quality issues? Describe the process you have in place for removal of an non-performing temporary staffing resource? ,True,Answer object (185),2024-02-29 05:42:46.972045+00:00
+184,Please indicate how much lead time you would need from Segra in order to provide temporary services staff.,True,Answer object (184),2024-02-29 05:42:46.937396+00:00
+183,"Describe your background check & drug screening process? Which company do you use to screen employees? Minimum Segra requirements are SSN Trace, County Criminal Records Search, Federal Criminal Records Search, Nationwide Criminal w/Alias including Sex offender, Nationwide criminal (PS), Panel 1205 9-Panel Drug Test. (These requirements are based on current Segra standards and are subject to change in future)",True,Answer object (183),2024-02-29 05:42:46.864501+00:00
+182,Can you commit to meet emergency requests and/or urgent ad-hoc requests from Segra?		,True,Answer object (182),2024-02-29 05:42:46.833598+00:00
+181,Please describe your Human Resource processes for attracting and retaining top talent. Also describe the processes you use to ensure the accuracy of your employees credentials.		,True,Answer object (181),2024-02-29 05:42:46.797486+00:00
+180,"Please provide relevant information about any lawsuits, liens, foreclosures, or other legal/financial actions that are pending, in progress, or which have been brought against the company or any of its officers/principals in the past three years.		",True,Answer object (180),2024-02-29 05:42:46.754182+00:00
+179,"Do you have diversity business certification? (eg. Female owned, disabled veteran owned etc. - MBE/WBE). If yes, please enlist.",True,Answer object (179),2024-02-29 05:42:46.712337+00:00
+178,How do you determine which employees need coverage under the ACA?,True,Answer object (178),2024-02-29 05:42:46.678830+00:00
+177,"If you are a member of the American Staffing Association, what certifications do you hold?",True,Answer object (177),2024-02-29 05:42:46.645500+00:00
+176,"Please advise how Michaels will be utilized in the hiring and onboarding process.  For example, who provides the approvals and onboarding training?",True,Answer object (176),2024-02-29 05:42:46.604950+00:00
+175,What questions do you use during the interview process?  Please provide several examples and elaborate on your evaluation technique.  May Michaels submit questions in addition to your own?,True,Answer object (175),2024-02-29 05:42:46.565984+00:00
+174,What type of background and drug testing do you conduct?  How extensive are they? Who is your service provider for background checking?,True,Answer object (174),2024-02-29 05:42:46.527991+00:00
+173,How often do you review and refresh your database of candidates?,True,Answer object (173),2024-02-29 05:42:46.493108+00:00
+172,"How do you select which candidates are placed where?  For instance, if two buyers are looking for the same candidate, how do you ultimately determine which company to place that employee with?",True,Answer object (172),2024-02-29 05:42:46.453901+00:00
+171,How many candidates do you have in your database?,True,Answer object (171),2024-02-29 05:42:46.415720+00:00
+170,"Checking the financial stability of our suppliers is part of our due diligence process. To support us in doing this, please tell us when your company financial year runs to and from.",True,Answer object (170),2024-02-29 05:42:46.361068+00:00

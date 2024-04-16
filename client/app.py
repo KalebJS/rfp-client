@@ -2,6 +2,7 @@
 To run the dashboard, use the following command in the terminal:
 `streamlit run app.py`
 """
+
 import requests
 import streamlit as st
 

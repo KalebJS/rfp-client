@@ -2,11 +2,11 @@ import os
 import re
 
 import dotenv
-import openai
 import pandas as pd
 import streamlit as st
-from libraries.db import Question
-from libraries.st_utils import get_db
+from openai import OpenAI
+from source.db import Question
+from source.st_utils import get_db
 from tqdm import tqdm
 
 db = get_db()
@@ -27,7 +27,9 @@ if not st.button("Run"):
 
 dotenv.load_dotenv(".envrc")
 api_key = os.environ["OPENAI_API_KEY"]
-openai.api_key = api_key
+
+client = OpenAI(api_key=api_key)
+
 
 with open("resources/question_augment_prompt.txt", "r") as f:
     prompt = f.read()
@@ -40,12 +42,10 @@ for question in tqdm(questions):
     answer = db.get_answer_by_id(question.answer_id)
     content = prompt.format(question=question.text, answer=answer.text, n=n_augmentations)
     conversation = [{"role": "user", "content": content}]
-    response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=conversation,
-        max_tokens=1000,
-    )
-    text = response["choices"][0]["message"]["content"]
+    response = client.chat.completions.create(model="gpt-3.5-turbo", messages=conversation, max_tokens=1000)
+    text = response.choices[0].message.content
+    if not text:
+        raise ValueError("No text returned from OpenAI")
     choices = question_pattern.findall(text)
     choices = [choice.strip().strip('"') for choice in choices]
     for choice in choices:

@@ -1,14 +1,12 @@
-Given the following question and answer pairs, generate {k} new ways to ask that question:
+Given the following question and answer pairs, generate {n} new ways to ask that question:
 
 For example:
 Question: "How often do you review and refresh your database of candidates?"
-Answer: "We refresh our database of candidates every 6 months."
 
 1. "What is your frequency for updating and renewing your candidate database?"
 2. "How frequently do you go through your pool of potential candidates to keep it current?"
 3. "How often do you revisit and update your database of job seekers?"
 4. "What is your process for regularly reviewing and refreshing your list of potential hires?"
-5 "Could you share the regularity with which you maintain and update your candidate database?" 
+5 "Could you share the regularity with which you maintain and update your candidate database?"
 
 Question: "{question}"
-Answer: "{answer}"

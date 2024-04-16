@@ -2,8 +2,8 @@
 To run the dashboard, use the following command in the terminal:
 `streamlit run app.py`
 """
-import streamlit as st
 
+import streamlit as st
 from source.st_utils import get_db, get_index
 
 db = get_db()

@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-from libraries.st_utils import export_database, get_db
+from source.st_utils import export_database, get_db
 
 db = get_db()
 

@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
-from libraries.db.database import DatabaseProxy
-from libraries.index_proxy import IndexProxy
+from source.db.database import DatabaseProxy
+from source.index_proxy import IndexProxy
 
 
 def get_db() -> DatabaseProxy:
